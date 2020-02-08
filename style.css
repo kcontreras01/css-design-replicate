@@ -1,0 +1,36 @@
+body {
+	background: #E44446;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#center {
+	display: flex;
+	background: #F1CED5;
+	width: 55%;
+	height: 50%;
+	box-shadow: 20px 20px #E9898D;
+	color: #E44446;
+	font-weight: bolder;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+#center p {
+	margin: .2em;
+}
+
+#center p:first-child {
+	font-size: 2.5em;
+}
+
+#center p:nth-child(2) {
+	font-size: 1.5em;
+}
+
+#center p:last-child {
+	font-size: 3em;
+}
+
