@@ -4,13 +4,18 @@ body {
 	height: 100vh;
 }
 
-#section-1 {
-	background: #E44446;
+.section__div {
 	height: 80%;
 	position: relative;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
-#section-1-div {
+#section__div--first, #section__div--third {
+	background: #E44446;
+}
+
+#section__div--card {
 	display: flex;
 	background: #F1CED5;
 	width: 55%;
@@ -28,36 +33,35 @@ body {
 	transform: translate(-50px, 50px);
 }
 
-#section-1-div p {
+#section__div--card p {
 	margin: .2em;
 }
 
-#section-1-div p:first-child {
+#section__div--card p:first-child {
 	font-size: 2.5em;
 }
 
-#section-1-div p:nth-child(2) {
+#section__div--card p:nth-child(2) {
 	font-size: 1.5em;
 }
 
-#section-1-div p:last-child {
+#section__div--card p:last-child {
 	font-size: 3em;
 }
 
-#section-2 {
+#section__div--second {
 	background: #F1CED5;
 }
 
-#section-2-div {
+#section__div--cards {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	height: 80%;
 }
 
-#section-2-div div {
+#section__div--cards div {
 	height: 50%;
 	width: 40%;
-	margin: auto;
 	background: #E44446;
 	color: #F1CED5;
 	box-shadow: 20px 20px #EC878D;
@@ -66,9 +70,19 @@ body {
 	flex-direction: column;
 }
 
-#section-2-div p {
+#section__div--cards p {
 	padding: 30px;
 	font-size: 3em;
+}
 
+#section__ul {
+	color: #E44446;
+
+	margin: 0 auto;
+}
+
+#section__ul li {
+	font-weight: bolder;
+	text-transform: uppercase;
 }
 
