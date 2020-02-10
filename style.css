@@ -1,17 +1,16 @@
 body {
-	/*background: #E44446;*/
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto;
 	height: 100vh;
 }
 
-#page-1 {
+#section-1 {
 	background: #E44446;
-	padding-bottom: 5em;
-	padding-top: 5em;
+	height: 80%;
+	position: relative;
 }
 
-#center {
+#section-1-div {
 	display: flex;
 	background: #F1CED5;
 	width: 55%;
@@ -23,32 +22,53 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	margin: 0 auto;
-	/*margin-top: 3em;*/
+	position: relative;
+	top: 50;
+	left: 50;
+	transform: translate(-50px, 50px);
 }
 
-#center p {
+#section-1-div p {
 	margin: .2em;
 }
 
-#center p:first-child {
+#section-1-div p:first-child {
 	font-size: 2.5em;
 }
 
-#center p:nth-child(2) {
+#section-1-div p:nth-child(2) {
 	font-size: 1.5em;
 }
 
-#center p:last-child {
+#section-1-div p:last-child {
 	font-size: 3em;
 }
 
-
-#page-2 {
+#section-2 {
 	background: #F1CED5;
 }
 
-#second {
-	/*background: #E14548;*/
+#section-2-div {
+	display: flex;
+	justify-content: space-between;
+	height: 80%;
+}
+
+#section-2-div div {
 	height: 50%;
+	width: 40%;
+	margin: auto;
+	background: #E44446;
+	color: #F1CED5;
+	box-shadow: 20px 20px #EC878D;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#section-2-div p {
+	padding: 30px;
+	font-size: 3em;
 
 }
+
