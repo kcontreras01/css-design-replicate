@@ -5,17 +5,17 @@ body {
 }
 
 .section__div {
-	height: 80%;
+	height: 90%;
 	position: relative;
 	padding-left: 40px;
 	padding-right: 40px;
 }
 
-#section__div--first, #section__div--third {
+#section__div--first, #section__div--third, #section__div--third {
 	background: #E44446;
 }
 
-#section__div--card {
+#section__div--intro {
 	display: flex;
 	background: #F1CED5;
 	width: 55%;
@@ -28,24 +28,22 @@ body {
 	flex-direction: column;
 	margin: 0 auto;
 	position: relative;
-	top: 50;
-	left: 50;
-	transform: translate(-50px, 50px);
+	top: 120;
 }
 
-#section__div--card p {
+#section__div--intro p {
 	margin: .2em;
 }
 
-#section__div--card p:first-child {
+#section__div--intro p:first-child {
 	font-size: 2.5em;
 }
 
-#section__div--card p:nth-child(2) {
+#section__div--intro p:nth-child(2) {
 	font-size: 1.5em;
 }
 
-#section__div--card p:last-child {
+#section__div--intro p:last-child {
 	font-size: 3em;
 }
 
@@ -53,14 +51,12 @@ body {
 	background: #F1CED5;
 }
 
-#section__div--cards {
+.section__div--cards {
 	display: flex;
 	justify-content: space-evenly;
-	height: 80%;
 }
 
-#section__div--cards div {
-	height: 50%;
+.section__div--red-card {
 	width: 40%;
 	background: #E44446;
 	color: #F1CED5;
@@ -70,19 +66,55 @@ body {
 	flex-direction: column;
 }
 
-#section__div--cards p {
+.section__div--red-card p {
 	padding: 30px;
 	font-size: 3em;
 }
 
 #section__ul {
 	color: #E44446;
-
+	padding: 40px;
 	margin: 0 auto;
 }
 
 #section__ul li {
 	font-weight: bolder;
 	text-transform: uppercase;
+	font-size: 2em;
+	letter-spacing: 2px;
 }
 
+#section__ul p {
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+
+#section__div--banner-text {
+	background: #F8F6F7;
+	color: #E44446;
+	height: 30%;
+	width: 80%;
+	box-shadow: 20px 20px #E9898D;
+	font-weight: bolder;
+	position: relative;
+	/*top: 120;*/
+}
+
+#section__div--banner-text{
+	margin: 0;
+	padding: 1em;
+}
+
+.section__div--card {
+	width: 40%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 1.5em;
+}
+
+.section__p--card-title {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
